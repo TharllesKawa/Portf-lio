@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/*NAVBAR*/
+
+.navbar-nav {
+    padding-right: 0 !important;
+}
+
+ul.navbar-nav li.nav-item a.nav-link{
+    color: #fff !important;
+    letter-spacing: 2px;
+    padding-left: 30px;
+    font-size: 18px;
+    opacity: .7;
+}
+
+ul.navbar-nav li.nav-item a.nav-link:hover {
+    opacity: 1;
+}
+
+nav.navbar {
+    background-color: #0e091b !important;
+}
+
+.container-fluid {
+    background-color: #0e091b;
+    padding: 10px;
+}
+
+nav img {
+    width: 300px;
+    min-width: 300px;
+    padding-left: 100px;
+}
+
+.navbar-nav {
+    padding-right: 100px;
+}
+
+/*MEIO DO SITE*/
+
+.nome {
+    width: 441.69px;
+    animation: digitando 1.5s steps(25), blink .4s infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+}
+
+@keyframes digitando {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    40% {
+        border-color: rgba(255, 255, 255, 0.2);
+    }
+}
+
+main {
+    background-color: #0e091b;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+main h3 {
+    color: #fff;
+}
+
+main h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 4em;
+    letter-spacing: 1px;
+    font-weight: 900;
+    color: #fff;
+}
+
+main p {
+    color: #fafafa;
+    opacity: .8;
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 3px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+div.col-md-6 {
+    padding: 70px;
+}
+
+main button {
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 180px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all .3s;
+    height: 60px;
+   }
+   
+   main  button:active,
+   main button:hover {
+    outline: 0;
+   }
+   
+   main  button span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+   }
+   
+   main  button:hover span {
+    background: none;
+   }
+   
+   main  button:active {
+    transform: scale(0.9);
+   }
+
+   main img, svg {
+       width: 100%;
+       min-width: 300px !important;
+   }
+
+   main div.row .align-self-center {
+       flex-direction: column;
+   }
+
+   /*Area sobre*/
+
+   .cid-sZdVTDk4dl .mbr-text {
+       text-align: start;
+   }
+
+   .cid-sZdWwum2uC {
+       padding-bottom: 2rem !important;
+   }
+
+   .cid-sZdWwum2uC .item {
+       margin-bottom: 1rem !important;
+   }
+
+   .cid-sZdWwum2uC .item-wrapper {
+       height: 100%;
+       background-color: #5B42F3;
+   }
+
+   /*ÁREA PROJETOS*/
+
+   .wrapper {
+    display: table;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(5, 6, 45);
+    padding: 60px 0 60px 0;
+  }
+  
+  .container-fostrap {
+    display: table-cell;
+    padding: 1em;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .fostrap-logo {
+    width: 100px;
+    margin-bottom:15px
+  }
+  h1.heading {
+    color: #fff;
+    font-size: 1.15em;
+    font-weight: 900;
+    margin: 0 0 0.5em;
+    padding: 0 0 30px 0;
+  }
+  @media (min-width: 450px) {
+    h1.heading {
+      font-size: 3.55em;
+    }
+  }
+  @media (min-width: 760px) {
+    h1.heading {
+      font-size: 3.05em;
+    }
+  }
+  @media (min-width: 900px) {
+    h1.heading {
+      font-size: 3.25em;
+      margin: 0 0 0.3em;
+    }
+  } 
+ .wrapper .card {
+    display: block; 
+      margin-bottom: 20px;
+      line-height: 1.42857143;
+      background-color: rgb(6, 11, 37);
+      border-radius: 2px;
+      box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); 
+      transition: box-shadow .25s; 
+  }
+  .card:hover {
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  .img-card {
+    width: 100%;
+    height:200px;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    display:block;
+      overflow: hidden;
+  }
+  .img-card img{
+    width: 100%;
+    height: 200px;
+    object-fit:cover; 
+    transition: all .25s ease;
+  } 
+  .card-content {
+    padding:15px;
+  }
+  .card-title {
+    margin-top:0px;
+    font-weight: 700;
+    font-size: 1.65em;
+  }
+  .card-title a {
+    color: #000;
+    text-decoration: none !important;
+  }
+  .card-read-more {
+    border-top: 1px solid #D4D4D4;
+  }
+  .card-read-more a {
+    text-decoration: none !important;
+    padding:10px;
+    font-weight:600;
+    text-transform: uppercase
+  }
+
+
+/* X-Small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) { 
+
+    nav img {
+        padding-left: 10px;
+        min-width: 50px;
+        padding-bottom: 3px;
+    }
+
+    /*MEIO DO SITE*/
+
+    main h1 {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 40px;
+        letter-spacing: 1px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    main button {
+        align-items: center;
+        justify-content: center;
+    }
+
+    main {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .nome {
+        width: 290px;
+    }
+    
+ }
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+    nav img {
+        padding-left: 10px;
+        width: 200px;
+        padding-bottom: 3px;
+    }
+
+      /*MEIO DO SITE*/
+
+    main div.row .align-self-center{
+        justify-content: center !important;
+        text-align: center !important;
+    }
+ }
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+    nav img {
+        padding-left: 10px;
+        width: 200px;
+        padding-bottom: 3px;
+    }
+
+      /*MEIO DO SITE*/
+
+    main div.row .align-self-center{
+        align-items: center;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    main {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+ }
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { 
+
+ }
+
+/* X-Large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) { 
+    
+ }
